@@ -51,7 +51,7 @@
 
 ## 快速部署
 
-1. clone 项目到本地 `git@github.com:lenve/vhr.git`
+1. clone 项目到本地 `git@github.com:panyongkang/MicroPersonnel.git`
 2. 数据库脚本放在项目根目录下，在 MySQL 中执行数据库脚本，导入数据库，并修改项目中关于数据的配置（resources 目录下的 application.properties 文件中）
 3. 提前准备好 Redis，在 项目的 application.properties 文件中，将 Redis 配置改为自己的
 4. 提前准备好 RabbitMQ，在项目的 application.properties 文件中将 RabbitMQ 的配置改为自己的（**注意，RabbitMQ 需要分别修改 mailserver 和 vhrserver 的配置文件**）
